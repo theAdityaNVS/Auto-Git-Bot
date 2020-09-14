@@ -8,10 +8,10 @@ do
 	cd $path
 	git add --all
 	checkin=$(date)
-    echo "New Changes Detected @ $checkin"
+	echo "New Changes Detected @ $checkin"
 	git commit -m "AutoGitBot: Changes Added @ $checkin"
 	git pull origin master
 	git push -u origin master
-    echo "Changes are Updated with Remote"
-    echo "Now Monitoring for Changes .... (Ctrl + Z to Exit)"
+	echo "Changes are Updated with Remote"
+	echo "Now Monitoring for Changes .... (Ctrl + Z to Exit)"
 done
