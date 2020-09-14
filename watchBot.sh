@@ -10,7 +10,7 @@ do
 	checkin=$(date)
 	echo "New Changes Detected @ $checkin"
 	git commit -m "AutoGitBot: Changes Added @ $checkin"
-	git pull origin master
+	git pull
 	git push -u origin master
 	echo "Changes are Updated with Remote"
 	echo "Now Monitoring for Changes .... (Ctrl + Z to Exit)"
