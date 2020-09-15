@@ -6,7 +6,7 @@ This is Crio.Do's Bonus Challenge which was part of #ibelieveindoing September E
 
 ## Supporting Files:
 
-- Medium Link : ```Coming Soon```
+- Medium Link : https://medium.com/@theAdityaNVS/2-fundamental-tools-from-devs-toolbox-git-and-linux-2a880ad2a2ef?sk=7776937aa61bd96e9e5f1e0b62ff1ba0
 - Demo Video : https://youtu.be/qf1Vf7mdAqE
 
 
