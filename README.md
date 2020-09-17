@@ -21,24 +21,24 @@ Auto Git Bot is a small shell executable file UNIX which can not only automate t
 - First, fork  this AutoGitBot and change its name (make it as private repo for personal files) !!
 - Open your terminal and install git using the command below.
   
-<code>sudo apt-get install git</code>
+- <code>sudo apt-get install git</code>
 
 - Then clone that repo to your computer.
 - Install inotify-tools tools using the command below.
   
-<code> sudo apt-get install inotify-tools</code>
+- <code> sudo apt-get install inotify-tools</code>
 
 - Then use a code editor and change the path variable in the file.
 - Make sure to configure the SSH keys to your GitHub.
 - Also configure username and email using commands below.
   
-<code> git config --global user.name "Your Name"</code>
+- <code> git config --global user.name "Your Name"</code>
 
-<code> git config --global user.email "youremail@yourdomain.com"</code>
+- <code> git config --global user.email "youremail@yourdomain.com"</code>
 
 - Then start the script using the command in the terminal as shown below.
   
-<code> ./watchBot.sh </code>
+- <code> ./watchBot.sh </code>
 
   ![image](https://miro.medium.com/max/1400/1*Qv5yoPdpdbNlQLF0xh_APg.png)
 
