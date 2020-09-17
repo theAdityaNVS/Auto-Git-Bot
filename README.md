@@ -23,13 +23,15 @@ Auto Git Bot is a small shell executable file UNIX which can not only automate t
   
 <code>sudo apt-get install git</code>
 
+- Configure your remote repo with SSH Keys.
+- For GitHub Tutorial is given in the below section.
+- Can check here for GitLab 👉 https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html
 - Then clone that repo to your computer.
 - Install inotify-tools tools using the command below.
   
 <code> sudo apt-get install inotify-tools</code>
 
 - Then use a code editor and change the path variable in the file.
-- Make sure to configure the SSH keys to your GitHub.
 - Also configure username and email using commands below.
   
 <code> git config --global user.name "Your Name"</code>
@@ -44,6 +46,19 @@ Auto Git Bot is a small shell executable file UNIX which can not only automate t
 
 - That's it and you will be treated with a window as shown above !!
 - To turn off the service use Ctrl+Z
+
+## Setting up SSH Keys for GitHub
+
+- Copy the SSH key to your clipboard which was generated.
+- Then in the upper-right corner of any page, click your profile photo, then click Settings.
+- In the user settings sidebar, click SSH and GPG keys.
+- Click New SSH key or Add SSH key.
+- In the "Title" field, add a descriptive label for the new key. 
+- Paste your key into the "Key" field.
+- Click Add SSH key.
+- If prompted, confirm your GitHub password.
+  
+  <em>(Source: [GitHub Docs](https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account))</em>
 
 ## Technologies Used
 
