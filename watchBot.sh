@@ -1,5 +1,5 @@
 #!/bin/bash
-path="/home/aditya/Desktop/Auto-Git-Bot" 
+path="/home/aditya/Desktop/Auto-Git-Bot" #add the directory path to be monitored for changes
 echo "---AutoGitBot Active---"
 echo "Now Monitoring for Changes ...."
 while true 
